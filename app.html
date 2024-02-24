@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    <meta charset="utf-8"/>
+    
+    <!-- mobile-friendly layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  
+    <!--
+      Prevent iOS Safari from linkifying telephone numbers, which breaks Vue
+      hydration. See https://stackoverflow.com/a/227238/101869
+    -->
+    <meta name="format-detection" content="telephone=no"/>
+    
+    <meta name="description" content="A web-based personal finance manager"/>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }}>
+    {{ APP }}
+  </body>
+</html>

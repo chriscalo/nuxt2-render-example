@@ -1,0 +1,20 @@
+{
+  "name": "nuxt2-render-example",
+  "type": "commonjs",
+  "repository": {
+    "url": "https://github.com/chriscalo/nuxt2-render-example.git"
+  },
+  "author": "Chris Calo <chris.calo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
+  "devDependencies": {
+    "nuxt": "^2.15.2"
+  },
+  "dependencies": {
+    "~": "file:./",
+    "express": "^4.17.1",
+    "nuxt-start": "^2.15.2"
+  }
+}
